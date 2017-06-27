@@ -1,11 +1,11 @@
 class Cd {
-  String name;
+  String artist;
   String album;
   int releaseYear;
   int price;
 
-  public Cd(String intName, String intAlbum,int intReleaseYear, int intPrice) {
-    name = intName;
+  public Cd(String intArtist, String intAlbum,int intReleaseYear, int intPrice) {
+    artist = intArtist;
     album = intAlbum;
     releaseYear = intReleaseYear;
     price = intPrice;
